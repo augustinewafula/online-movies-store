@@ -1,0 +1,358 @@
+.top-nav{
+	background: #4CAF50;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header-txt{
+	font-size: 32px;
+	font-weight: bold;
+	padding: 0px 0px 10px 10px;
+}
+.section{
+	display: inline-block;
+}
+.top-nav-links-container{
+	margin-left: 200px;
+}
+.top-nav a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px #666666;
+	color: #ffffff;
+}
+.top-nav a.active{
+	color: #333333;
+}
+.top-nav-links{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px #666666;
+	color: #ffffff;
+	margin-left: 30px;
+	font-size: 20px;
+	-webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+
+}
+.top-nav-links:hover{;
+	color: #333333;
+}
+.search-box-container{
+	margin-left: 60px;
+}
+#search-box{
+	font-family: sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    height: 40px;
+    width: 15%;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.container{
+	margin: 75px 8px 80px 8px;
+}
+.title{
+	background-color: #e6e6e6;
+	padding: 10px 0px 10px 12px;
+
+}
+.title-no-bg{
+	padding: 6px 0px 6px 12px;
+
+}
+.title h1{
+	text-transform: uppercase;
+	color: #595959;
+}
+.title-no-bg h1{
+	text-transform: uppercase;
+	color: #595959;
+}
+.title-no-bg h2{
+	text-transform: uppercase;
+	color: #595959;
+}
+.movies{
+	margin-left: 65px;
+	margin-right: 65px;
+}
+.single-movie-container{
+	width: 200px;	
+	margin: 20px 10px 20px 10px;
+}
+.single-movie-container a{
+	text-decoration: none;
+}
+.single-movie-container h3{
+	color: #1a1a1a;
+	width: 200px;
+	text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 200px; 
+    height: 1.2em; 
+    white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.single-movie{
+	height: 290px;
+	width: 200px;
+}
+.bg1{	
+	background-image: url("../images/movies/tomb-raider.jpg");
+	background-size: cover;
+}
+.bg2{	
+	background-image: url("../images/movies/incredibles2.jpg");
+	background-size: cover;
+}
+.bg3{	
+	background-image: url("../images/movies/jurrasic world.jpg");
+	background-size: cover;
+}
+.bg4{	
+	background-image: url("../images/movies/rampage.jpg");
+	background-size: cover;
+}
+.bg5{	
+	background-image: url("../images/movies/ant man and wasp.jpg");
+	background-size: cover;
+}
+.bg6{	
+	background-image: url("../images/movies/avengers.jpg");
+	background-size: cover;
+}
+.bg7{	
+	background-image: url("../images/movies/deadpool2.jpg");
+	background-size: cover;
+}
+.bg8{	
+	background-image: url("../images/movies/quiet place.jpg");
+	background-size: cover;
+}
+.bg9{	
+	background-image: url("../images/movies/solo.jpg");
+	background-size: cover;
+}
+.bg10{	
+	background-image: url("../images/movies/black panther.jpg");
+	background-size: cover;
+}
+.bg11{	
+	background-image: url("../images/movies/hereditary.jpg");
+	background-size: cover;
+}
+.bg12{	
+	background-image: url("../images/movies/death wish.jpg");
+	background-size: cover;
+}
+.s_bg1{	
+	background-image: url("../images/movies/arrow.png");
+	background-size: cover;
+}
+.s_bg2{	
+	background-image: url("../images/movies/the flash.jpg");
+	background-size: cover;
+}
+.s_bg3{	
+	background-image: url("../images/movies/into the badlands.jpg");
+	background-size: cover;
+}
+.s_bg4{	
+	background-image: url("../images/movies/greenhouse academy.jpg");
+	background-size: cover;
+}
+.s_bg5{	
+	background-image: url("../images/movies/the magicians.jpg");
+	background-size: cover;
+}
+.s_bg6{	
+	background-image: url("../images/movies/mr robot.jpg");
+	background-size: cover;
+}
+.s_bg7{	
+	background-image: url("../images/movies/super girl.jpg");
+	background-size: cover;
+}
+.single-movie:hover{
+	border: 4px solid #40ff00;
+}
+.play-btn{
+	position: absolute;
+	display: none;
+	margin-top: 80px;
+	margin-left: 70px;
+	opacity: 0.5;
+    filter: alpha(opacity=50); 
+	z-index: 90;
+}
+.play-btn:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.single-movie:hover .play-btn{
+	display: block;
+
+}
+.rating{
+	position: absolute;
+	width: 25%;
+	float: right;
+	font-size: 14px;
+	color: #000000; 
+	background-color: #ffff00; 
+	padding: 5px;
+	margin-top: 5px;
+	right: 0;
+	z-index: 90;
+	font-weight: bold;
+}
+.quality{
+	position: absolute;
+	width: 35%;
+	font-size: 14px;
+	color: #000000; 
+	background-color: #40ff00; 
+	padding: 5px;
+	margin-top: 5px;
+	right: 0;
+	z-index: 90;
+	font-weight: bold;
+
+}
+.overlay {
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  background-color: rgba(10,0,0,0.5);
+}
+
+.overlay:hover:before{
+  display: block;
+}
+.division{
+	float: left;
+}
+.division.movie-info{
+	width: 20%;
+}
+.division.movie-play{
+	width: 80%;
+}
+.movie-image{
+	height: 330px;
+	width: 230px;
+	background-image: url("../images/movies/tomb-raider.jpg");
+	background-size: cover;
+	border: 8px solid #666666;
+}
+.serie-image{
+	height: 330px;
+	width: 230px;
+	background-image: url("../images/movies/arrow.png");
+	background-size: cover;
+	border: 8px solid #666666;
+}
+.movie-about{
+	background-color: #666666;	
+	width: 230px;
+}
+.movie-about h2{
+	color: #fff;
+}
+.movie-about span{
+	font-weight: bold;
+	padding-top: 3px;
+}
+.movie-about p{
+	color: #fff;
+	padding-left: 10px;
+}
+.movie-play p{
+	color: #595959;
+	font-size: 20px;
+}
+.seasons{
+	width: 100%;
+	background-color: #666666;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 15px;
+}
+.season-header{
+	background-color: #4d4d4d;
+	padding: 2px 2px 2px 5px;
+}
+.season-body {
+	margin-bottom: 15px;
+}
+.season-body button{
+	margin-top: 3px;
+	background-color: #4CAF50;
+	cursor: pointer;
+	outline: 0;
+	border: 0;
+	border-radius: 2px;
+	padding: 10px;
+	width: 80px;
+}
+.season-body .active{
+	border: 1px solid #4CAF50;
+	background-color: #ffffff;
+}
+.season-body .active h2{
+	color: #4CAF50;
+}
+.season-body button h2{
+	color: #ffffff;
+}
+.season-header h2{
+	color: #ffffff;
+	font-size: 20;
+
+}
+.filter-selection{
+	margin-left: 600px;
+}
+.filter-selection select{
+	outline: 0;
+    background: #f2f2f2;
+    width: 20%;
+    border: 0;
+    padding: 10px 0px 10px 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+video{
+	border: 4px solid #666666;
+}
+body{
+	background-color: #f2f2f2;
+}
+footer{
+	background: #232323;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 15px 0px 15px 0px;
+    font-size: 20px
+}
+* { margin:0; padding:0; box-sizing:border-box; }
